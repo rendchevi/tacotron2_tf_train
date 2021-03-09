@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python train_tacotron2.py --train-dir ./dump/train/ --dev-dir ./dump/valid/ --outdir ./examples/ --config ./examples --use-norm 1 --mixed_precision 0 --resume ""
